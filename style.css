@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+#navbar{
+    background:black;
+    
+}
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px#4d4e49;
+    margin-bottom: 5px;
+    color:#eeaf3a;
+   
+}
+
+.navbar-toggler span{
+    color: #eeaf3a;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+
+.nav-item .nav-link:hover {
+    color: white;
+}
+
+#navbar form button{
+    background-color: #eeaf3a;
+    color: white;
+    border: none;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#1111114d,#16161633), url(./images/pro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+}
+.home .content h5{
+    color:brown;
+    font-size: 38px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px #b8aeae;
+    font-family: "Playwrite DK Loopet", cursive;
+}
+.home .content h1{
+   color:  #eeaf3a;
+    font-size: 70px;
+    font-weight: 550;
+    margin-top: 5px;
+    text-shadow: 0px 1px 1px black;
+}
+
+.home .content p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;   
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.home .content a{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.home .content a:hover{
+    background: #eeaf3a;
+    color: black;
+}
+@media (max-width:850px){
+    .home{
+        background-position: 50%;
+    }
+}
+@media (max-width:450px){
+    .home .content h5{
+        font-size: 25px;
+    }
+    .home .content h1{
+        font-size: 38px;
+    }
+    .home .content p{
+        font-size: 13px;
+    }
+}
+
+.main-content h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px #575454;
+    color: black;
+}
+
+.packages .card{
+    border-radius: 5px;
+    border: none;
+}
+.packages .card:hover {
+    border:  1px  ;
+    box-shadow: 0 8px 16px #363636;
+}
+.packages .card img{
+    border-radius: 5px;
+}
+
+.packages .card .card-body h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: brown;
+    
+}
+.packages .card .card-body p{
+    font-size: 15px;
+    font-family: "Dancing Script", cursive;
+    color: black;
+}
+
+
+.packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #eeaf3a;
+    color: black;
+    border-radius: 5px;
+}
+
+.gallary{
+    margin-top: 50px;
+}
+.gallary .card{
+    border-radius: 10px;
+    box-shadow: #0000001a 0px 4px 12px;
+    cursor: pointer;
+}
+.gallary .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+    border: none;
+}
+.gallary .card img:hover{
+    transform: scale(1.1);
+    transition:  0.2s;
+   
+}
+
+.about{
+    padding: 50px;
+    margin-top: 50px;
+}
+.about .card{
+    border-radius: 10px;
+}
+.about h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: brown;
+}
+.about p{
+    font-weight: 500;
+    font-family: "Dancing Script", cursive;
+}
+#about-btn{
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background-color:#eeaf3a;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#about-btn:hover{
+    width: 170px;
+}
+@media (max-width:765px){
+    .about{
+        padding: 0;
+    }
+}
+.services{
+    margin-top: 50px;
+}
+.services .card{
+    box-shadow: #0000001a 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.services .card i{
+    font-size: 70px;
+    text-align: center;
+    color: #eeaf3a ;
+    margin-top: 20px;
+}
+.services .card .card-body h3{
+    font-weight: 600;
+    color: brown;
+}
+.services .card .card-body p {
+    font-family: "Playwrite DK Loopet", cursive;
+    font-size: 14px;
+}
+.services .card .card-body{
+    text-align: center;
+}
+#footer{
+    width: 100% ;
+    margin-top: 150px;
+    text-align: center;
+    background: black;
+}
+#footer h1{
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+    color: #eeaf3a;
+}
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links i:hover{
+    background-color: brown;
+}
